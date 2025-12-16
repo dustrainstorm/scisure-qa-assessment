@@ -1,0 +1,17 @@
+{
+  "name": "scisure-qa-assessment",
+  "version": "1.0.0",
+  "description": "Cypress e2e test suite that validates bulk-update logic for sample quantities in the eLabNext sandbox environment.",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "cypress:open": "cypress open"
+  },
+  "author": "George Petridis",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "cypress": "^15.7.1"
+  }
+}
